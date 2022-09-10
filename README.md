@@ -21,7 +21,7 @@ Parameters:
     >python main.py -input [path_to_file(s)] [operations]
     >python main.py -input [path_to_file(s)] [operations] -output [path_to_save_file]
     e.g:
-       **python main.py -input access.log -mfip**  -> for most frequent ip in access.log
-       **python main.py -input access.log -mfip -lfiq -eps -t** -> for most frequent ip, least frequent ip, events per second and total amount of bytes exchanged in access.log
-       **python main.py -input access.log -t -output /Users/SwissRe/Desktop**  -> for total amount of bytes exchanged in access.log, results saved in /Users/SwissRe/Desktop      
+       [x]python main.py -input access.log -mfip  -> for most frequent ip in access.log
+       [x]python main.py -input access.log -mfip -lfiq -eps -t -> for most frequent ip, least frequent ip, events per second and total amount of bytes exchanged in access.log
+       [x]python main.py -input access.log -t -output /Users/SwissRe/Desktop -> for total amount of bytes exchanged in access.log, results saved in /Users/SwissRe/Desktop      
 
